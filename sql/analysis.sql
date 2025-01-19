@@ -1,4 +1,4 @@
-SELECT W.id_wycieczki, W.ilosc_uczestnikow, T.kwota,  DATEDIFF(W.data_zakonczenia, W.data_rozpoczecia) as ilosc_dni, K.miasto,K.kraj, T2.nazwa as tematyka
+SELECT W.id_wycieczki, W.ilosc_uczestnikow, T.kwota,  DATEDIFF(W.data_zakonczenia, W.data_rozpoczecia) as ilosc_dni, K.miasto,K.kraj, T2.nazwa as tematyka, W.data_rozpoczecia
 FROM Wycieczki W
     JOIN team20.Transakcje T on W.id_wycieczki = T.id_wycieczki
     JOIN team20.Kierunki K on K.id_kierunku = W.id_kierunku

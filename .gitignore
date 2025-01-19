@@ -10,7 +10,10 @@ __pycache__/
 backup/
 project_venv/
 od_piatka/
+sql_roboczy/
 .vscode
+
+sql_fill.py
 
 # macOS
 .DS_Store
