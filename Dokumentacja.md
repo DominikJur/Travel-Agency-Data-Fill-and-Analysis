@@ -12,7 +12,7 @@ W trakcie projektu wykorzystane zostały następujące technologie:
     - Numpy - Operacje numeryczne,
     - Matplotlib oraz Seaborn - wizualizacja danych, wykresy,
     - Biblioteki standardowe (os, sys, random, re, calendar, datetime,warnings, contextlib),
-- 
+- Jupyter Notebook - środowisko do tworzenia i prezentacji notatek zawierających kod, tekst, wykresy, równania i inne elementy.
 
 ## 2.  Lista plików z opisem zawartości
  - analysis.ipynb - notebook jupyter zawierający kod potrzebny do wygenerowania raportu
@@ -24,9 +24,9 @@ Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill".
     - schema.graphml - 
     - schema.png - plik przedstawiający wizualizację relacji między tabelami
  - Folder "sql":
-    - analysis.sql - 
+    - analysis.sql - Plik SQL zawierający zapytanie do bazy danych na którym polegała większość analizy danych.
     - clear.sql - plik usuwający z  bazy tych uczestników, którym nie trafiła się zadna wycieczka
-    - employee.sql -  
+    - employee.sql -  Plik SQL zawierający zapytanie do bazy danych dotyczące pracowników.
  - plik ".env" - do stworzenia przez uzytkownika, powinien zawierać dane niezbędne do połączenia z bazą danych
  - req.txt - plik potrzebny do instalacji niezbędnych bibliotek do python przy uyciu komendy "pip install -r req.txt"
 
@@ -175,3 +175,6 @@ Zaleznosci funkcyjne w tabelach:
 ## 6. Co było najtrudniejsze podczas realizacji projektu
 
 Przede wszystkim wygenerowanie realistycznych danych dla projektu, sam ten problem pochłonął ze wszystkich najwięcej czasu i wygenerował sporo dyskusji grupowych.
+
+## 7. Sposób użytkowania projektu
+Po zainstalowaniu wszystkich niezbędnych bibliotek, zawartych w pliku `req.txt`, należy uruchomić notebook `fill_db.ipynb`, który wygeneruje i uzupełni bazę danych. Następnie uruchomić notebook `analysis_and_raport.ipynb`, który zawiera kod potrzebny do wygenerowania raportu. W razie potrzeby wygenerowania nowego raportu, należy wpisać w terminalu komendę ` jupyter nbconvert --to html analysis_and_raport.ipynb` , która wygeneruje raport w formacie html.
