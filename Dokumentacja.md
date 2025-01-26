@@ -23,10 +23,8 @@ Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill".
  - Folder "schema":
     - schema.graphml - 
     - schema.png - plik przedstawiający wizualizację relacji między tabelami
- - Folder "sql":
-    - analysis.sql - Plik SQL zawierający zapytanie do bazy danych na którym polegała większość analizy danych.
-    - clear.sql - plik usuwający z  bazy tych uczestników, którym nie trafiła się zadna wycieczka
-    - employee.sql -  Plik SQL zawierający zapytanie do bazy danych dotyczące pracowników.
+ - Folder "src":
+    - utils.py - plik zawierający funkcje do wysyłania zapytań na bazę danych i otrzymywanaia wyników w postaci pandas.DataFrame
  - plik ".env" - do stworzenia przez uzytkownika, powinien zawierać dane niezbędne do połączenia z bazą danych
  - req.txt - plik potrzebny do instalacji niezbędnych bibliotek do python przy uyciu komendy "pip install -r req.txt"
 
