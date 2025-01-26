@@ -29,7 +29,7 @@ Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill".
  - req.txt - plik potrzebny do instalacji niezbędnych bibliotek do python przy uyciu komendy "pip install -r req.txt"
 
 ## 3. Kolejność i sposób otwierania plików 
-  - 1. Uruchomić notebook fill_db.ipynb w wybranym edytorze obsługującym notatniki jupyter, następnie analysis.ipynb utuchomić w ten sam sposób.
+Uruchomić notebook fill_db.ipynb w wybranym edytorze obsługującym notatniki jupyter, następnie analysis.ipynb utuchomić w ten sam sposób.
 
 ## 4. Schemat projektu bazy danych 
 
