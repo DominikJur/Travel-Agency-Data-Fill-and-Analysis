@@ -21,7 +21,7 @@ W trakcie projektu wykorzystane zostały następujące technologie:
 Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill".
 
  - Folder "schema":
-    - schema.graphml - 
+    - schema.graphml - diagram schematu w formacie graphml
     - schema.png - plik przedstawiający wizualizację relacji między tabelami
  - Folder "src":
     - utils.py - plik zawierający funkcje do wysyłania zapytań na bazę danych i otrzymywanaia wyników w postaci pandas.DataFrame
