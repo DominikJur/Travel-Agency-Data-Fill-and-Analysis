@@ -17,8 +17,9 @@ W trakcie projektu wykorzystane zostały następujące technologie:
 ## 2.  Lista plików z opisem zawartości
  - analysis.ipynb - notebook jupyter zawierający kod potrzebny do wygenerowania raportu
  - fill_db.ipynb - notebook ze skryptem słuącym do generacji i uzupełnienia tabel
+ - create_tables.sql - skrypt do uzupełniania bazy danych zaciągnięty z DataGrip
 
-Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill".
+Powyzsze pliki znajdują się odpowiednio w folderach "analysis" i "fill", plik create_tables.sql znajduje się w głównej części repozytorium.
 
  - Folder "schema":
     - schema.graphml - diagram schematu w formacie graphml
